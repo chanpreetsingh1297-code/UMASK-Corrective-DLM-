@@ -37,11 +37,12 @@ By evaluating global bidirectional context simultaneously, UNMASK identifies low
 
 ```text
 unmask-code-debugger/
-├── unmask_debugger.html    # Standalone interactive web workbench & telemetry visualizer
+├── index.html    # Interactive web workbench & telemetry visualizer
+├── style.css    # Styling of web app
+├── script.js    # Scripting of web app
 ├── model/
-│   ├── unmask_model.py     # PyTorch UNMASKTransformer, ASTNoiseEngine & training loop
-│   └── dataset.py          # Blended MBPP + core Python pattern dataloader
-└── README.md               # Project documentation
+│   ├── UNMASK.ipynb     # PyTorch UNMASKTransformer, ASTNoiseEngine & training loop and test dataset
+└── README.md            # Project documentation
 ```
 
 ---
