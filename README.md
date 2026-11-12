@@ -40,6 +40,7 @@ unmask-code-debugger/
 ├── index.html    # Interactive web workbench & telemetry visualizer
 ├── style.css    # Styling of web app
 ├── script.js    # Scripting of web app
+├── dlm.py    # diffusion language model attached python script
 ├── model/
 │   ├── UNMASK.ipynb     # PyTorch UNMASKTransformer, ASTNoiseEngine & training loop and test dataset
 └── README.md            # Project documentation
